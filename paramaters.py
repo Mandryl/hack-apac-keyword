@@ -1,0 +1,1 @@
+DICT_PATH = 'data/dict/keyword_dict.csv'
