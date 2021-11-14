@@ -1,9 +1,9 @@
-from preprocessing.language_check import is_japanese
-from preprocessing.noise_remove import noise_format
-from preprocessing.normalize_sentence import lemmatize_sentence
+from src.preprocessing.language_check import is_japanese
+from src.preprocessing.noise_remove import noise_format
+from src.preprocessing.normalize_sentence import lemmatize_sentence
 from paramaters import *
-from preprocessing.data_io import read_dict_csv
-from out_json import create_keyword_json
+from src.preprocessing.data_io import read_dict_csv
+from src.out_json import create_keyword_json
 
 
 def extract_keyword(inputdata):
