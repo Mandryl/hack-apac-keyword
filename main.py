@@ -1,14 +1,19 @@
-# ファイル参照
+# Local Module
 from preprocessing.language_check import is_japanese
 from preprocessing.nltk_download_list import nltk_download_lise
 from preprocessing.noise_remove import noise_format
 from preprocessing.data_io import read_dict_csv
 from preprocessing.normalize_sentence import lemmatize_sentence
 from paramaters import *
+from get_news_api import get_newsapi_everything, get_newsapi_sources,newsapi_check_json
+from deepl_api import translate
+from out_json import out_create_json,remove_json
 
-# 外部モジュール
+# External Module
 from nltk.stem.wordnet import WordNetLemmatizer 
 from nltk.tag import pos_tag
+import json, copy,sys,re
+
 
 ## Inputデータから分かち書き
 nltk_download_lise()
@@ -35,7 +40,7 @@ else:
     en_index = []
     jp_out_data = []
     en_out_data = set(tokens_l) & set(english_data)
-    print(en_out_data)
+    en_out_data = list(en_out_data)
 
     # Result(結果)
     for i in en_out_data:
@@ -43,4 +48,58 @@ else:
 
     for i in en_index:
         jp_out_data.append(japanese_data[i])
-    print(jp_out_data)
+    
+
+    # 文字列作成
+    resultstr = ''
+    for i in en_out_data:
+        if(resultstr==''):
+            resultstr = i
+        else:
+            resultstr = resultstr + ' And ' + i 
+    
+    testresultstr = 'intimidate'
+
+    # NewsAPI 
+    # everythingdata = get_newsapi_everything(testresultstr,NEWS_APIKEY,NEWS_EVERYTHING_DOMAIN,'jp')
+    # sourcedata = get_newsapi_sources('source', NEWS_APIKEY, NEWS_COUNTRY)
+
+    # テスト用のサンプル
+    json_open_ja = open('data/newsapi/' + testresultstr + '.json', 'r')
+    everythingdata_ja = json.load(json_open_ja)
+    json_open_en = open('data/newsapi/' + testresultstr + '.json', 'r')
+    everythingdata_en = json.load(json_open_en)
+    
+    # Json Check
+    everythingdata_ja = newsapi_check_json(everythingdata_ja)
+    everythingdata_en = newsapi_check_json(everythingdata_en)
+
+    articledata_en = remove_json(everythingdata_ja,False)
+    articledata_jp = remove_json(everythingdata_en,True)
+    
+    # sourcedata = newsapi_check_json(sourcedata)
+    articledata_en = articledata_en['articles']  
+    # DeepLのAPI
+    for i in range(len(articledata_en)):
+        author = articledata_en[i]['author']
+        description=articledata_en[i]['description']
+        title=articledata_en[i]['title']
+        deepl_text =  author + '\n' + description + '\n' + title
+        result_text = translate(deepl_text,DEEPL_APIKEY,t_lang="JA")
+        list_text = result_text['translations'][0]['text'].splitlines()
+        
+        articledata_en[i]['author'] = list_text[0]
+        articledata_en[i]['description'] = list_text[1]
+        articledata_en[i]['title'] = list_text[2]
+    articledata_en = r'{ "keyword":' + str(articledata_en)+ r"}"
+    parttern = re.compile(r"(<([^>]+)>)")
+    text = parttern.sub('',str(articledata_en))
+    text = text.replace("'",'"')
+
+    keyFormat = json.loads(text)
+
+    # sys.exit(1)
+    # articledata_en['articles'] = articledata_en.pop('articles','')
+    # # hoge = translate("The PC enthusiast's resource. Power users and the tools they love, without computing religion.", )
+    outputjson = out_create_json(jp_out_data,en_out_data,articledata_jp['articles'],keyFormat)
+    
