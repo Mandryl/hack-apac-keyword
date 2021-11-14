@@ -62,3 +62,25 @@ def remove_json(newsjsondata:dict,translate_flg:bool):
         
         json.dump(newsjsondata, f, indent=2,ensure_ascii=False)
     return newsjsondata
+
+
+def create_keyword_json(keyword_jp:list,keyword_en:list):
+    createjson = r'{ "keyword":[ {'
+    count = 0
+    keyword_length = len(keyword_jp)
+
+    for i in keyword_jp:
+        createjson = createjson + r'"id":"' + str(count + 1) + r'",'
+        createjson = createjson + r'"keyword_jp":"' + i + r'",'
+        createjson = createjson + r'"keyword_en":"' + keyword_en[count] + r'"'
+        if(keyword_length==count + 1):
+            createjson = createjson + r"}]" 
+        else:
+            createjson = createjson + r"},{"
+        count = count + 1
+    
+    createjson = createjson + r'}'
+    keyFormat = json.loads(createjson) # String-->json convert 
+    outputjson = json.dumps(keyFormat,indent=2, ensure_ascii=False)# Formatting
+    
+    return outputjson

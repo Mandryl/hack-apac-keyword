@@ -15,8 +15,6 @@ T_LANG_CODES = ["DE", "EN", "FR", "IT", "JA", "ES",
 S_LANG_CODES = ["DE", "EN", "FR", "IT",
                 "JA", "ES", "NL", "PL", "PT", "RU", "ZH"]
 
-
-
 def translate(text,api_key,s_lang='',t_lang='JA'):
     
     # check paramater
