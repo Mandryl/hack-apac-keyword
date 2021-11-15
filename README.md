@@ -39,6 +39,8 @@
 ## Example
 ### OpenShift Deploy Method
 
+
+https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.3/html/cli_tools/openshift-cli-oc
 `
 oc registry login  # 内部レジストリのURLメモっとく($REGISTRY_URLで使う)
 oc whoami -t  # パスワードメモっとく
