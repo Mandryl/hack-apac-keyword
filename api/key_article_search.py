@@ -1,13 +1,13 @@
 # Local Module
-from preprocessing.language_check import is_japanese
-from preprocessing.nltk_download_list import nltk_download_lise
-from preprocessing.noise_remove import noise_format
-from preprocessing.data_io import read_dict_csv
-from preprocessing.normalize_sentence import lemmatize_sentence
+from src.preprocessing.language_check import is_japanese
+from src.preprocessing.nltk_download_list import nltk_download_lise
+from src.preprocessing.noise_remove import noise_format
+from src.preprocessing.data_io import read_dict_csv
+from src.preprocessing.normalize_sentence import lemmatize_sentence
 from paramaters import *
 from api.get_news_api import get_newsapi_everything, get_newsapi_sources,newsapi_check_json
 from api.deepl_api import translate
-from out_json import out_create_json,remove_json
+from src.out_json import out_create_json,remove_json
 
 # External Module
 from nltk.stem.wordnet import WordNetLemmatizer 

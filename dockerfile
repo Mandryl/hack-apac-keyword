@@ -1,10 +1,10 @@
 FROM python:alpine
 
-WORKDIR /app
+WORKDIR /app/hack-apac-keyword
 
-COPY ./app /app
+COPY ../hack-apac-keyword /app
 
 RUN pip install Flask
 RUN pip install -r requirements.txt
 
-CMD ["python", "index.py"]
+CMD ["python", "api.py"]

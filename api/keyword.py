@@ -14,7 +14,7 @@ def extract_keyword(inputdata):
     # Japanese(Error) 
     if lang_flg == True:
         return {'message': 'Error：It contained a language other than English.'}
-   
+        
     # English
     else:
         en_index = []
