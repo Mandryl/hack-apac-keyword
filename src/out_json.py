@@ -80,6 +80,7 @@ def create_keyword_json(keyword_jp:list,keyword_en:list):
         count = count + 1
     
     createjson = createjson + r'}'
+    print(createjson)
     keyFormat = json.loads(createjson) # String-->json convert 
     outputjson = json.dumps(keyFormat,indent=2, ensure_ascii=False)# Formatting
     

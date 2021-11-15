@@ -69,9 +69,9 @@ def extract_keyword_articlesearch(inputdata):
         # sourcedata = get_newsapi_sources('source', NEWS_APIKEY, NEWS_COUNTRY)
 
         # テスト用のサンプル
-        json_open_ja = open('../data/newsapi/' + everythingdata[1] + '.json', 'r')
+        json_open_ja = open('data/newsapi/' + everythingdata[1] + '.json', 'r')
         everythingdata_ja = json.load(json_open_ja)
-        json_open_en = open('../data/newsapi/' + everythingdata[1] + '.json', 'r')
+        json_open_en = open('data/newsapi/' + everythingdata[1] + '.json', 'r')
         everythingdata_en = json.load(json_open_en)
         
         # Json Check

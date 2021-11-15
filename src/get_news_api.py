@@ -27,7 +27,7 @@ def get_newsapi_everything(keyword,newsapi_key,countryname="",domainname=""):
                                         country=countryname,
                                         domains=domain_join,
                                         )
-    with open('../data/newsapi/'+ keyword+ '.json', 'w') as f:
+    with open('data/newsapi/'+ keyword+ '.json', 'w') as f:
         json.dump(all_articles, f, indent=2,ensure_ascii=False)
     return all_articles, keyword
 
@@ -41,7 +41,7 @@ def get_newsapi_sources(jsonfile,newsapi_key,countryname=""):
         sourcefile = jsonfile+ "_" + countryname + ".json"
 
     ## source json output
-    with open('../data/newsapi/'+ sourcefile, 'w') as f:
+    with open('data/newsapi/'+ sourcefile, 'w') as f:
         json.dump(sourcesdata, f,indent=2, ensure_ascii=False)
     return sourcesdata
 

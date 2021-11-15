@@ -1,4 +1,4 @@
-DICT_PATH = '../data/dict/keyword_dict.csv'
+DICT_PATH = 'data/dict/keyword_dict.csv'
 # NEWS API LIST
 NEWS_APIKEY='97e1a5c542ad46548c5a75d0ee4603d1'
 NEWS_SOURCE={'cnn'}
