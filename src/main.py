@@ -5,8 +5,8 @@ from preprocessing.noise_remove import noise_format
 from preprocessing.data_io import read_dict_csv
 from preprocessing.normalize_sentence import lemmatize_sentence
 from paramaters import *
-from api.get_news_api import get_newsapi_everything, get_newsapi_sources,newsapi_check_json
-from api.deepl_api import translate
+from get_news_api import get_newsapi_everything, get_newsapi_sources,newsapi_check_json
+from deepl_api import translate
 from out_json import out_create_json,remove_json
 
 # External Module

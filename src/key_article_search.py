@@ -1,13 +1,13 @@
 # Local Module
-from src.preprocessing.language_check import is_japanese
-from src.preprocessing.nltk_download_list import nltk_download_lise
-from src.preprocessing.noise_remove import noise_format
-from src.preprocessing.data_io import read_dict_csv
-from src.preprocessing.normalize_sentence import lemmatize_sentence
+from preprocessing.language_check import is_japanese_check
+from preprocessing.nltk_download_list import nltk_download_lise
+from preprocessing.noise_remove import noise_format
+from preprocessing.data_io import read_dict_csv
+from preprocessing.normalize_sentence import lemmatize_sentence
 from paramaters import *
-from api.get_news_api import get_newsapi_everything, get_newsapi_sources,newsapi_check_json
-from api.deepl_api import translate
-from src.out_json import out_create_json,remove_json
+from get_news_api import get_newsapi_everything, get_newsapi_sources,newsapi_check_json
+from deepl_api import translate
+from out_json import out_create_json,remove_json
 
 # External Module
 from nltk.stem.wordnet import WordNetLemmatizer 
@@ -22,7 +22,7 @@ def extract_keyword_articlesearch(inputdata):
     inputdata ="Hello,I've had a trouble with my daily life because the amount of time I spend with my family increased due to coronavirus. Actually, my father, Kazuki, has behaved violently to me. After drinking,  he always come into my room and give me a shout. Nowadays even though he don't get drunk, he messes with me. If my behaviour is unfavorable, he punches and kicks me. I hope that the days like before could come back to us and I could go back to school as soon as possible. Help me."
 
     ## 日本語判定
-    lang_flg = is_japanese(inputdata)
+    lang_flg = is_japanese_check(inputdata)
 
     ## Japanese Detection
     if lang_flg == True:
