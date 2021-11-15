@@ -37,7 +37,10 @@ def extract_keyword(inputdata):
         for i in en_index:
             jp_out_data.append(japanese_data[i])
         
-        # Result Json Create
-        resultjson = create_keyword_json(jp_out_data,en_out_data)
+        if len(en_out_data)==0:
+            return {'message': 'Keyword not found'}
+        else:
+            # Result Json Create
+            resultjson = create_keyword_json(jp_out_data,en_out_data)
 
         return resultjson

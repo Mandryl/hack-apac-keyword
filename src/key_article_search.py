@@ -18,7 +18,7 @@ import os,shutil
 
 
 def extract_keyword_articlesearch(inputdata):
-    target_folder = '../data/newsapi/'
+    target_folder = 'data/newsapi/'
     shutil.rmtree(target_folder)
     os.mkdir(target_folder)
         
