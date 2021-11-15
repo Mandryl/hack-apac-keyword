@@ -13,14 +13,18 @@ from out_json import out_create_json,remove_json
 from nltk.stem.wordnet import WordNetLemmatizer 
 from nltk.tag import pos_tag
 import json, copy,sys,re
+import os,shutil
+
 
 
 def extract_keyword_articlesearch(inputdata):
-
+    target_folder = '../data/newsapi/'
+    shutil.rmtree(target_folder)
+    os.mkdir(target_folder)
+        
     ## Inputデータから分かち書き
     nltk_download_lise()
-    inputdata ="Hello,I've had a trouble with my daily life because the amount of time I spend with my family increased due to coronavirus. Actually, my father, Kazuki, has behaved violently to me. After drinking,  he always come into my room and give me a shout. Nowadays even though he don't get drunk, he messes with me. If my behaviour is unfavorable, he punches and kicks me. I hope that the days like before could come back to us and I could go back to school as soon as possible. Help me."
-
+    
     ## 日本語判定
     lang_flg = is_japanese_check(inputdata)
 
@@ -52,25 +56,22 @@ def extract_keyword_articlesearch(inputdata):
         for i in en_index:
             jp_out_data.append(japanese_data[i])
         
-
         # 文字列作成
         resultstr = ''
-        for i in en_out_data:
+        for i in jp_out_data:
             if(resultstr==''):
                 resultstr = i
             else:
-                resultstr = resultstr + ' And ' + i 
+                resultstr = resultstr + ' OR ' + i 
         
-        testresultstr = 'intimidate'
-
         # NewsAPI 
-        # everythingdata = get_newsapi_everything(testresultstr,NEWS_APIKEY,NEWS_EVERYTHING_DOMAIN,'jp')
+        everythingdata = get_newsapi_everything(resultstr,NEWS_APIKEY,'',NEWS_EVERYTHING_DOMAIN)
         # sourcedata = get_newsapi_sources('source', NEWS_APIKEY, NEWS_COUNTRY)
 
         # テスト用のサンプル
-        json_open_ja = open('data/newsapi/' + testresultstr + '.json', 'r')
+        json_open_ja = open('../data/newsapi/' + everythingdata[1] + '.json', 'r')
         everythingdata_ja = json.load(json_open_ja)
-        json_open_en = open('data/newsapi/' + testresultstr + '.json', 'r')
+        json_open_en = open('../data/newsapi/' + everythingdata[1] + '.json', 'r')
         everythingdata_en = json.load(json_open_en)
         
         # Json Check
@@ -81,28 +82,30 @@ def extract_keyword_articlesearch(inputdata):
         articledata_jp = remove_json(everythingdata_en,True)
         
         # sourcedata = newsapi_check_json(sourcedata)
-        articledata_en = articledata_en['articles']  
+        articledata_en = articledata_en['articles']
         # DeepLのAPI
         for i in range(len(articledata_en)):
             author = articledata_en[i]['author']
             description=articledata_en[i]['description']
             title=articledata_en[i]['title']
-            deepl_text =  author + '\n' + description + '\n' + title
+            if(str(author) == "None"):
+                author = "None_empty"
+            deepl_text =  str(author) + '\n' + str(description) + '\n' + str(title)
             result_text = translate(deepl_text,DEEPL_APIKEY,t_lang="JA")
             list_text = result_text['translations'][0]['text'].splitlines()
-            
-            articledata_en[i]['author'] = list_text[0]
+            articledata_en[i]['author'] = str(list_text[0])
             articledata_en[i]['description'] = list_text[1]
             articledata_en[i]['title'] = list_text[2]
         articledata_en = r'{ "keyword":' + str(articledata_en)+ r"}"
         parttern = re.compile(r"(<([^>]+)>)")
         text = parttern.sub('',str(articledata_en))
         text = text.replace("'",'"')
-
+        text = text.replace("None", '"None_empty"')
+        text = text.replace('""None_empty"_empty"', '"None_empty"')
         keyFormat = json.loads(text)
-
         # sys.exit(1)
         # articledata_en['articles'] = articledata_en.pop('articles','')
         # # hoge = translate("The PC enthusiast's resource. Power users and the tools they love, without computing religion.", )
         outputjson = out_create_json(jp_out_data,en_out_data,articledata_jp['articles'],keyFormat)
-        
+        print(outputjson)
+    return outputjson

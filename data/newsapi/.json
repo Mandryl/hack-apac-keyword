@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 8809,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Asahi.com"
+      },
+      "author": null,
+      "title": "Almost no cases of flu yet, but big outbreak still possible | The Asahi Shimbun: Breaking News, Japan News and Analysis - Asahi Shimbun",
+      "description": "<ol><li>Almost no cases of flu yet, but big outbreak still possible | The Asahi Shimbun: Breaking News, Japan News and Analysis  Asahi Shimbun\r\n</li><li>A few cases of the flu have begun to show up within Interior Health - Kelowna News  Castanet.net\r\n</li><li…",
+      "url": "https://www.asahi.com/ajw/articles/14467270",
+      "urlToImage": "https://p.potaufeu.asahi.com/6c83-p/picture/26438740/a0db2f988c86536a35f8f56dd3a4ffc1.jpg",
+      "publishedAt": "2021-10-24T07:25:00Z",
+      "content": "Although a winter outbreak of influenza has not materialized, experts caution that one could still occur--with huge ramifications for health care workers bracing for sixth wave of the COVID-19 pandem… [+1859 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": "John Gruber",
+      "title": "Rene Ritchie and Yours Truly Talking About MacOS 12 Monterey",
+      "description": "macOS Monterey is here but should you upgrade now or wait? NO ADS + bonus content! CuriosityStream & Nebula for less than $15 a YEAR! https://curiositystre...",
+      "url": "https://www.youtube.com/watch?v=KhTpanq4h7U",
+      "urlToImage": "https://i.ytimg.com/vi/KhTpanq4h7U/maxresdefault.jpg",
+      "publishedAt": "2021-10-28T00:27:51Z",
+      "content": "Lost — at least slightly — amidst the hubbub surrounding the M1 Pro/Max MacBook Pros is that MacOS 12 Monterey shipped this week, too. Rene Ritchie was kind enough to have me as a guest on his YouTub… [+109 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": "John Gruber",
+      "title": "Facebook Connect 2021 Keynote",
+      "description": "Tune in at 10:00am PT / 1:00pm ET on Thurs. Oct. 28 when Facebook holds its annual Facebook Connect. The company is expected to announce Oculus updates and o...",
+      "url": "https://www.youtube.com/watch?v=VKPNJ8sOU_M",
+      "urlToImage": "https://i.ytimg.com/vi/VKPNJ8sOU_M/maxresdefault.jpg",
+      "publishedAt": "2021-10-29T04:25:26Z",
+      "content": "I actually watched almost all of this. Is it worth 90 minutes of your time? Maybe! I’ll spoil this: the whole thing is just a series of concept videos showing things Facebook\r\n Meta wants to build, n… [+218 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "Expectations for Generics in Go 1.18",
+      "description": "Comments",
+      "url": "https://groups.google.com/g/golang-dev/c/iuB22_G9Kbo/m/7B1jd1I3BQAJ",
+      "urlToImage": null,
+      "publishedAt": "2021-10-28T00:00:55Z",
+      "content": "Hi all,Absent an unexpected serious problem, Go 1.18 will include support for generics. Generics are the most significant change to Go since the release of Go 1, and certainly the largest single lang… [+4382 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "The Klimt Color Enigma",
+      "description": "Colorizing Klimt’s Vanished Paintings with Artificial Intelligence and Klimt Experts",
+      "url": "https://artsandculture.google.com/story/the-klimt-color-enigma/SQWxuZfE5ki3mQ?hl=en",
+      "urlToImage": "https://lh3.googleusercontent.com/3UsN_hn_h_62AICt8Izhnj1xi-l5jFpnnCDBlAVOtQbnlHvtOVnSre5VQZSsAoI",
+      "publishedAt": "2021-10-22T10:50:43Z",
+      "content": "Gustav Klimts three masterpieces: Medicine, Jurisprudence, and Philosophy were destroyed during the Second World War. Only black and white photos and articles describing the paintings remain. Google … [+11722 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "Recovering data from failed cache using a surviving cache “Cache Fusion” (1998)",
+      "description": "A method and apparatus are provided for transferring a resource from the cache of one database server to the cache of another database server without first writing the resource to disk. When a database server (Requestor) desires to modify a resource, the Requ…",
+      "url": "https://patents.google.com/patent/US20010042066A1/en",
+      "urlToImage": null,
+      "publishedAt": "2021-11-01T18:03:38Z",
+      "content": "Owner name:\r\n ORACLE INTERNATIONAL CORPORATION, CALIFORNIA\r\nFree format text:\r\n ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:ORACLE CORPORATION;REEL/FRAME:013944/0938\r\nEffective date:\r\n 20030411\r\nOwner … [+183 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "Update to YouTube Dislike Counts",
+      "description": "Comments",
+      "url": "https://support.google.com/youtube/thread/134791097/update-to-youtube-dislike-counts?hl=en",
+      "urlToImage": null,
+      "publishedAt": "2021-11-10T17:05:08Z",
+      "content": "We found the following personal information in your message:\r\nThis information will be visible to anyone who visits or subscribes to notifications for this post. Are you sure you want to continue?"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "堀込泰三",
+      "title": "iPhone 13がフリーズしたらすぐ使える対処法",
+      "description": "ピカピカのiPhone 13を手に入れたなら電源オンとシャットダウンの方法だけでなく、強制再起動の方法、リカバリーモードの開始と終了の方法を知っておくに越したことはありません。",
+      "url": "https://www.lifehacker.jp/2021/10/how-to-force-restart-or-use-recovery-mode.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/17/muo-productivity-google-drive-taking-up-storage-w960.png",
+      "publishedAt": "2021-10-19T11:00:00Z",
+      "content": "iPhone 13\r\niPhone 13\r\niPhone 13\r\n3\r\niPhone 13Apple\r\niPhone 13\r\niPhoneiPhone 13\r\nAppleiPhone 13\r\niPhone 13\r\niPhone 13 AppleiPhone\r\niPhone\r\niPhone\r\niPhoneApple\r\niPhone 13PCMacPCMojavemacOSMaciTunes\r\nCa… [+219 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "大森りえ",
+      "title": "運動効果を高める「最強の食事＆睡眠」徹底ガイド～現役トレーナー直伝",
+      "description": "現役パーソナルトレーナーの寺田健太郎さんに、前編に引き続いて運動効果を最大化する「食事・睡眠」のメソッドを教えてもらいました。",
+      "url": "https://www.lifehacker.jp/2021/10/243431tips-to-improve-your-workout-02.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/08/211021workout_top-w960.png",
+      "publishedAt": "2021-10-21T07:00:00Z",
+      "content": "4\r\n3\r\nPFC\r\nImage: Shutterstock\r\nPFC\r\nPFC\r\n1kcal×3040P3F2C5\r\n70kg\r\n12100Kcal\r\n630cal420kcal1050kcal\r\nOK\r\n20gkcal\r\n1g4kcal1g9kcal\r\n630kcal÷4158g420kcal÷947g1050kcal÷4263g\r\n12100kcal\r\n12\r\n13\r\n112000kcal… [+130 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "junior",
+      "title": "お値打ちだけど妥協なし。トゥールビヨンが美しい「WALDHOFF」の先行受付が終了間近",
+      "description": "時計ブランド「WALDHOFF」の機械式腕時計は愛好者が夢見る「トゥールビヨン」を搭載し、メイド・イン・ジャーマニーのこだわりが随所に詰まった高級腕時計です。",
+      "url": "https://www.lifehacker.jp/2021/10/machi-ya-waldhoff-end.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/11/IMG_6924-w960.jpg",
+      "publishedAt": "2021-10-16T07:30:00Z",
+      "content": "2021918\r\nmachi-yaWALDHOFFTHE VANGUARD V8THE IMPERIAL\r\nPhoto: Tomohiro Ito\r\n40\r\n2\r\nPhoto: Tomohiro Ito\r\nTHE VANGUARD V8THE IMPERIAL\r\nTHE IMPERIAL3THE VANGUARD V81Black\r\nPhoto: Tomohiro Ito\r\nPhoto: Tom… [+481 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "メディアジーンメディアコマース",
+      "title": "【Amazonタイムセール祭り】カシオの腕時計が44％オフで1,000円台、コールマンのアウトドアワゴンが32％オフなど注目アイテムがズラリ！",
+      "description": "Amazon（アマゾン）では、2021年10月16日9時から10月18日23時59分まで｢Amazon タイムセール祭り｣を開催中です。\n\n人気のアイテムが日替わり・時間ごとに多数セール対象となるタイムセールでは、現在、44％オフのカシオ腕時計や32％オフのコールマン・アウトドアワゴンなど、今すぐ使えるアイテムがお買い得に登場しています。",
+      "url": "https://www.lifehacker.jp/2021/10/amazon-timesale-fes-2021-1016-2.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/16/Top-2-w960.jpg",
+      "publishedAt": "2021-10-16T06:15:00Z",
+      "content": "Amazon20211016910182359Amazon \r\n441,00032\r\nKindle200Kindle Unlimited2299\r\n2021101613\r\n2.5%\r\n1,000\r\n50OFF///\r\n/ \r\n70%\r\nTeijinMofua\r\nAmazon 10,0006.5%\r\nAmazon \r\nAmazon 202110182359\r\nImage/Source:Amazon… [+5 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "山田洋路",
+      "title": "忙しい日も足裏からケア。土踏まずにアプローチする足裏圧着タイツ「PigaONE」のプロジェクトが終了間近！",
+      "description": "履くだけで正しい姿勢に導く足裏圧着タイツ「PigaONE（ピガワン）」。足裏アーチをサポートし、ヨガや格闘技の練習や運動不足による足のだるさ解消を促します。",
+      "url": "https://www.lifehacker.jp/2021/10/243778-machi-ya-pigaone-end.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/08/%403PigaONE%286%29-w960.jfif",
+      "publishedAt": "2021-10-16T10:00:00Z",
+      "content": "machi-yaPigaONE\r\nImage subten_inc\r\nImage subten_inc\r\nImage subten_inc\r\nPigaONE\r\nPigaONE\r\nImage subten_inc\r\nPigaONE\r\nPigaONEOKSUP\r\nImage subten_inc\r\n11PigaONE\r\n40g\r\nPigaONEmachi-ya18OFF8,120\r\nImage: s… [+26 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "Haruki Matsumoto",
+      "title": "本格仕様のマイ樽でお手頃ウイスキーを進化させてみた",
+      "description": "｢TARU HOLICミニ樽｣は蒸留酒の熟成を楽しめる本格派のマイ樽。希少なスパニッシュオークの採用や内側の焦がし加工など、蒸留所さながらの仕様です。1週間の熟成でどれくらい変化があるか試してみました。",
+      "url": "https://www.lifehacker.jp/2021/10/machi-ya-whisky_barrel-review.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/21/DSC05502-w960.jpg",
+      "publishedAt": "2021-10-23T06:15:00Z",
+      "content": "20\r\nTARU HOLIC\r\n1\r\n1L\r\nPhoto: Haruki Matsumoto\r\n1L\r\nPhoto: Haruki Matsumoto\r\nPhoto: Haruki Matsumoto\r\nTARU HOLIC\r\nImage: FARCA LLC\r\nTARU HOLIC\r\nPhoto: Haruki Matsumoto\r\nPhoto: Haruki Matsumoto\r\nPhoto… [+339 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "田中宏和",
+      "title": "驚異のコスパに刮目！Androidタブレット界の風雲児「Xiaomi Pad 5」",
+      "description": "これがXiaomiの力なのか。Androidタブレットは、もうずっとiPadとSurfaceの影に隠れていたと思うんです。性能それなりな廉価モデルばかりが目につく状態でしたからね。Googleは、そう望んでいなかったでしょうけど。ところが、Xiaomiの｢Pad 5｣は、そんなタブレット界に風穴を開けてしまったと言っても過言じゃないんですよね。Snapdragon 860、Android 11、高解像度かつ高リフレッシュレートで輝度も高いディスプレイ、ハイレゾに対応したクアッド（4個）スピーカーを搭載して、約44…",
+      "url": "https://www.lifehacker.jp/2021/10/amazon-xiaomi-pad-5.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/21/211021_xiaomipad5_top-w960.jpg",
+      "publishedAt": "2021-10-22T05:00:00Z",
+      "content": "Xiaomi\r\nAndroidiPadSurface\r\nGoogle\r\nXiaomiPad 5\r\nQualcomm Snapdragon 860\r\nImage: Amazon.co.jp\r\nSnapdragon 860QualcommSoC\r\nSoC8882855\r\nSoCAndroid 11OSMIUI 12.5 for padPad 5\r\n44,000\r\n11WQHD120Hz\r\nImage… [+95 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "山田洋路",
+      "title": "どこから見ても絶景！ スケルトントゥルービヨン腕時計を使ってみた",
+      "description": "フルスケルトンのトゥールビヨン腕時計「FULL SKELETON TOURBILLON THE ARCHER（THE ARCHER）。透明度の高い水晶ガラスで側面クリアを実現。ラウンド型とスクエア型の2タイプ選べます。",
+      "url": "https://www.lifehacker.jp/2021/10/244302-machi-ya-themarcher-review2.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/18/20211018-zeroo04-w960.jpeg",
+      "publishedAt": "2021-10-18T23:00:00Z",
+      "content": "20211012\r\nmachi-ya \r\nmachi-yaFULL SKELETON TOURBILLON THE ARCHERTHE ARCHER \r\n2\r\nT1T2SILVER &amp; BLACKRoseGOLD &amp; BLACK\r\nPhoto: \r\nT143mmT239mm\r\nPhoto: \r\nTHE ARCHER4\r\nPhoto: \r\nTHE ARCHER69\r\nPhoto: … [+265 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "石田佐織",
+      "title": "キーホルダー級の極細財布「nano Wallet」は紛失防止タグ付き！",
+      "description": "「nano Wallet（ナノウォレット）」はキーケースのような見た目ながら硬貨、紙幣、鍵まで入る究極の極小レザーウォレット。紛失防止タグも搭載可能で、大切なアイテムを紛失しやすい方にもぴったり。",
+      "url": "https://www.lifehacker.jp/2021/10/244513-machi-ya-nanowallet-end.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/21/8170F995-73FE-4CBA-84AF-A5CB6A89C01E-w960.jpeg",
+      "publishedAt": "2021-10-26T05:00:00Z",
+      "content": "machi-ya\r\nnano Wallet\r\nVideo: LIFE POCKET / YouTube\r\nnano Wallet\r\nImage: LIFE POCKET\r\n0.8cm1.5cm2cm\r\nImage: LIFE POCKET\r\nnano Wallet1552\r\nImage: LIFE POCKET\r\nImage: LIFE POCKET\r\nImage: LIFE POCKET\r\nM… [+122 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "組橋信太朗",
+      "title": "開くだけで紙幣・小銭・カードが取り出せる両利き対応の財布に注目！",
+      "description": "｢aioa fit（アイオアフィット）｣はワンアクションで紙幣・小銭・カードが取り出せて、左右から出し入れができるユニバーサルデザインを採用したミニマルウォレット。実際に使ってみて感じたデザイン性の高さを紹介します！",
+      "url": "https://www.lifehacker.jp/2021/10/243391-machi-ya-aioafit-review.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/05/_MG_2122-w960.jpg",
+      "publishedAt": "2021-10-18T05:00:00Z",
+      "content": "machi-yaaioa fit\r\naioa fit\r\nPhoto: \r\nPhoto: \r\nPhoto: \r\naioa fit\r\nPhoto: \r\nPhoto: \r\n8.5cm×9.3cm15104\r\n2.7cm\r\nPhoto: \r\nImage: bambimeister\r\n1.5\r\nPhoto: \r\naioa fit\r\naioa fitmachi-ya14,30015%OFF12,100\r\n … [+45 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "飯田あゆみ",
+      "title": "枕難民を救うぷるぷるの快眠枕で一晩眠ってみた",
+      "description": "「Demor」はぷるぷるクッションで⼼地よい眠りをサポートする枕。頭と首をやさしく包み込み、疲れを軽減。⽵炭配合で気になる臭いを消臭、丸洗いできていつでも清潔です。",
+      "url": "https://www.lifehacker.jp/2021/10/244323-machi-ya-demor-review2.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/21/956a5c95efa086314dfce07be5a4a085%283%29-w960.jpg",
+      "publishedAt": "2021-10-21T13:00:00Z",
+      "content": "2021102\r\n20\r\nmachi-yaDEMOR\r\nPhoto: \r\nDEMOR54cm35cm810cm\r\nDEMOR\r\nPhoto: \r\nDEMOR\r\nDEMOR\r\nPhoto: \r\nDEMOR\r\nTPE\r\nPhoto: \r\nDEMOR\r\nPhoto: \r\nDEMOR\r\nDEMOR\r\nDEMOR\r\nImage: MikestarLLC\r\nDEMORmachi-ya 19,800 2002… [+60 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "春野ユリ",
+      "title": "Android 12にアップデートすると使える新機能12選",
+      "description": "先日、Pixel端末向けにAndroid 12のフルバージョンがリリースされました。既にこのOSを試して、新しいインターフェースや機能や設定に慣れてきた人も多いかもしれません。",
+      "url": "https://www.lifehacker.jp/2021/10/the-biggest-and-best-new-features-in-android.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/28/a1-w960.jpg",
+      "publishedAt": "2021-10-30T11:00:00Z",
+      "content": "PixelAndroid 12\r\nOS\r\nAndroid 11\r\n1. Material You\r\nAndroid 12\r\nAndroid 12Material YouAndroid 11\r\nImage: Google\r\n2. \r\nAndroid 12UI\r\n<ul><li>Wifi/</li><li>GPayGoogle Pay</li><li></li><li>Bluetooth</li><… [+558 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "山科拓郎",
+      "title": "アウトドアメディアと電子機器メーカーが共同開発！ 大光量＆モバイルバッテリー機能搭載のランプシェード付きランタン",
+      "description": "CAMPFIREでプロジェクトを実施中の「ランプシェード付ランタン」。話題のアウトドア情報を届けるアウトドアメディア・hinataと、電子機器メーカー・オウルテックが共同開発したプロダクト。最長57時間の連続点灯時間や、4段階の調光機能、容量24000mAhのモバイルバッテリー機能ほか、2社の知見を結集したかゆいところに手が届く1台に仕上がっています。",
+      "url": "https://www.lifehacker.jp/2021/10/244858-campfire-hinataowltec.html",
+      "urlToImage": "https://assets.media-platform.com/lifehacker/dist/images/2021/10/27/DSC05062-w960.jpg",
+      "publishedAt": "2021-10-28T13:00:00Z",
+      "content": "LED\r\nLEDetc. \r\nImage: Owltech\r\nCAMPFIREhinata\r\n57424000mAh\r\nPhoto: \r\nhinata\r\nLED\r\nPhoto: \r\nLEDUSB-C\r\nPhoto: \r\nV\r\nPhoto: \r\nPhoto: \r\nType-A ×2Type-C ×1\r\nPD18WWi-Fi24000mAh\r\nPhoto: \r\n540380235145412\r\nPh… [+127 chars]"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 from flask import Flask, jsonify,request,Blueprint,abort
-from api.keyword import extract_keyword
-from api.key_article_search import extract_keyword_articlesearch
+from src.keyword_extract import extract_keyword
+from src.key_article_search import extract_keyword_articlesearch
 from flask_cors import CORS,cross_origin
 app = Flask(__name__)
  
@@ -19,4 +19,4 @@ def get_user():
     return jsonify(keywordjson)
 
 if __name__ == "__main__":
-    app.run(host='127.0.0.1', port=8888, debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=True)

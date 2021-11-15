@@ -1,5 +1,3 @@
-import sys
-# sys.path.remove("/Users/sakamotokazuki/workspace/hack-apac-keyword/src")
 from preprocessing.language_check import is_japanese_check
 from preprocessing.noise_remove import noise_format
 from preprocessing.normalize_sentence import lemmatize_sentence
@@ -7,7 +5,6 @@ from preprocessing.data_io import read_dict_csv
 from out_json import create_keyword_json
 from paramaters import *
 def extract_keyword(inputdata):
-    inputdata = "kick"
     # Lunguage Detection
     lang_flg = is_japanese_check(inputdata)
 
@@ -44,5 +41,3 @@ def extract_keyword(inputdata):
         resultjson = create_keyword_json(jp_out_data,en_out_data)
 
         return resultjson
-
-print(extract_keyword("test"))

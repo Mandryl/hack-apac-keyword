@@ -58,7 +58,7 @@ def remove_json(newsjsondata:dict,translate_flg:bool):
         del newsjsondata['articles'][i]['urlToImage']
         if(translate_flg):
             del newsjsondata['articles'][i]['source']
-    with open('data/newsapi/test1.json', 'w') as f:
+    with open('../data/newsapi/test1.json', 'w') as f:
         
         json.dump(newsjsondata, f, indent=2,ensure_ascii=False)
     return newsjsondata

@@ -62,7 +62,7 @@ def translate(text,api_key,s_lang='',t_lang='JA'):
     except urllib.error.HTTPError as e:
         print("error:" + e)
 
-    with open("data/deepl/hogehoge.json", 'w') as f:
+    with open("../data/test.json", 'w') as f:
         json.dump(res_json,f,indent=2,ensure_ascii=False)
 
     return res_json
