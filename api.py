@@ -7,13 +7,13 @@ app = Flask(__name__)
 CORS(app, support_credentials=True)
 
 @app.route('/api/keysearch',method=["GET"])
-def hello_world():
+def keysearch_extract_data():
     keyword = request.args.get("sentence")
     keywordjson = extract_keyword_articlesearch(keyword)
     return jsonify(keywordjson)
 
 @app.route('/api/keyword', methods=["GET","POST"])
-def get_user():
+def keyword_extract_data():
     keyword = request.args.get("sentence")
     keywordjson = extract_keyword(keyword)
     return jsonify(keywordjson)
